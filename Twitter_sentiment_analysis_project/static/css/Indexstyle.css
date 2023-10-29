@@ -1,0 +1,65 @@
+/* Center the mainsection vertically and horizontally */
+/* Apply background color and center the header */
+.title {
+    background-color: #007BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height as needed */
+}
+
+
+/* Style for the title text */
+.title-text {
+    text-align: center;
+}
+
+/* Style for the big text */
+.big-text {
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+.mainsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the buttons */
+.btn-primary {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 24px; /* Increased padding for a larger button */
+    font-size: 18px; /* Slightly larger font size */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Center button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+/* Change button color on hover with a subtle shadow effect */
+.btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow on hover */
+}
+
+/* Optional: Style for input fields */
+.form-control {
+    border-radius: 10px;
+    padding: 10px; /* Add padding to input fields */
+    border: 1px solid #ccc; /* Add a border to input fields */
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Add a focus effect for input fields */
+.form-control:focus {
+    border-color: #007BFF; /* Change border color on focus */
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.5); /* Add a subtle focus shadow */
+}

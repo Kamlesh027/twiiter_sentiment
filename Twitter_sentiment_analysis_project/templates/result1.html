@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Result</title>
+  <style>
+    body {
+      background-image: url('your_background_image.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .centered-box {
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      max-width: 500px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    #contact {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    #result-heading {
+      background-color: skyblue; /* Add a sky blue background color to the "Result" heading */
+      padding: 10px; /* Adjust padding as needed */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="centered-box">
+    <div id="contact">
+      <h1>Result</h1>
+    </div>
+
+    <h2 id="result-heading">Text: "{{msg}}"</h2>
+    <h2>Sentiment: {{result}}</h2>
+  </div>
+</body>
+
+</html>
